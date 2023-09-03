@@ -1,7 +1,8 @@
+import time
 import cv2
 import numpy as np
 import pyautogui
-import time
+
 
 SCREEN_SIZE = (1920, 1080)
 
@@ -21,6 +22,7 @@ while True:
         prev = time.time()
         frame = np.array(img)
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        out.write(frame)
         
     cv2.waitKey(100)
     
