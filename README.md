@@ -1,6 +1,6 @@
 # Python Screen Recorder
 
-This repository contains the code for the a LiveStream Chat Project featuring Real-Time Video Communication.
+This repository contains a simple script that allows you to record your computer screen and save it as a video file.
 
 ## Table of Contents
 
